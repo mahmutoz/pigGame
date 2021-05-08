@@ -34,6 +34,7 @@ const init = function () {
     playerEl1.classList.remove('player--active');
     playerEl0.classList.add('player--active');
 };
+init();
 
 const playerSwitch = function () {
     playerEl0.classList.toggle('player--active');
